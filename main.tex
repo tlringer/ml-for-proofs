@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multibib}
+
+\title{Machine Learning for Proofs Bibliography}
+\author{The Public}
+
+\newcites{peerreviewed}{Refereed Conference \& Journal Papers}
+\newcites{workshop}{Workshop Papers}
+\newcites{arxiv}{arXiv Papers \& Drafts}
+
+\begin{document}
+
+\maketitle
+
+\bibliographystylepeerreviewed{plain}
+\bibliographypeerreviewed{all}
+\bibliographystyleworkshop{plain}
+\bibliographyworkshop{all}
+\bibliographystylearxiv{plain}
+\bibliographyarxiv{all}
+
+\end{document}
+
